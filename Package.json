@@ -1,0 +1,16 @@
+{
+  "name": "jump-rope-survival",
+  "version": "1.0.0",
+  "description": "Cordova starter for Jump Rope Survival HTML5 game",
+  "scripts": {
+    "build:android": "cordova build android",
+    "prepare:android": "cordova platform add android"
+  },
+  "cordova": {
+    "plugins": {},
+    "platforms": []
+  },
+  "devDependencies": {
+    "cordova": "^12.0.0"
+  }
+}
