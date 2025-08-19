@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+  <title>Jump Rope Survival</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="ui">
+    <h1>Jump Rope Survival</h1>
+    <div class="row">
+      <button id="btnStart">Start</button>
+      <button id="btnMode">Mode: Endless</button>
+      <button id="btnPause">Pause</button>
+      <button id="btnReset">Reset</button>
+    </div>
+    <div class="row stats">
+      <span>Level: <b id="level">1</b></span>
+      <span>Speed: <b id="speed">1.0x</b></span>
+      <span>Lives: <b id="lives">3</b></span>
+      <span>Score: <b id="score">0</b></span>
+    </div>
+    <p class="hint">Tap anywhere to jump. Time your jump so the rope passes under your feet.</p>
+  </div>
+  <canvas id="game" width="420" height="680"></canvas>
+  <script src="game.js"></script>
+</body>
+</html>
